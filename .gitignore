@@ -1,0 +1,52 @@
+# macOS
+.DS_Store
+
+# Python: байткод и кеши
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+ENV/
+
+# Пакетирование/сборка
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+.installed.cfg
+
+# Тесты и анализаторы
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.cache/
+.mypy_cache/
+.pyrightcache/
+.pylint.d/
+ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+
+# Gradio
+.gradio/
+
+# IDE и редакторы
+.vscode/
+.idea/
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
